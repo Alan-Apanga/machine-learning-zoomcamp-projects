@@ -287,7 +287,7 @@ Predicted MSRP: $45,230.50
 ## License
 
 This project is part of the Machine Learning Zoomcamp course.  
-Specify your license here: <LICENSE-TYPE> (e.g., MIT, Apache 2.0, CC-BY-4.0)
+
 
 ---
 
@@ -302,8 +302,7 @@ Specify your license here: <LICENSE-TYPE> (e.g., MIT, Apache 2.0, CC-BY-4.0)
 
 ## Contact & Support
 
-- **Author:** <your-name>
-- **Email:** <your-email>
-- **LinkedIn:** <your-linkedin>
+- **Author:** Alan Apanga
+- **LinkedIn:** [Portfolio](https://www.linkedin.com/in/alan-apanga/)
 
 For questions or feedback, please open an issue or contact the author.
