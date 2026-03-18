@@ -143,10 +143,6 @@ Navigate through cells to explore data, visualizations, and model development st
 - **Features:** 5 numeric baseline features
 - **Rationale:** Simple interpretable baseline to establish performance floor
 
-### Alternative Models Explored
-- <model-name-1>: <brief description and RMSE>
-- <model-name-2>: <brief description and RMSE>
-- <model-name-3>: <brief description and RMSE>
 
 ### Final Selected Model
 - **Type:** Linear Regression
