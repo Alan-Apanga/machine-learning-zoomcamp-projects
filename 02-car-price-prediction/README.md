@@ -25,7 +25,7 @@ Given a dataset of vehicle specifications (engine power, fuel efficiency, popula
 | Aspect | Details |
 |--------|---------|
 | **Source** | Machine Learning Zoomcamp (Kaggle Car Data) |
-| **Size** | <number-of-records> records, <number-of-features> features |
+| **Size** | 11914 records, 16 features |
 | **Format** | CSV |
 | **Target Variable** | `msrp` — car price in USD |
 | **Key Features** | `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg`, `popularity`, and categorical variables |
