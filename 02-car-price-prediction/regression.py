@@ -131,7 +131,10 @@ def rmse(y, y_pred):
 
     return np.sqrt(mse)
 
-print(f'RMSE: {rmse(y_train, y_pred)}')
+
+print(f'Trainning baseline RMSE: {rmse(y_train, y_pred)}')
+
+
 
 
 # 6. VALIDATING THE BASE MODEL
@@ -299,3 +302,29 @@ print(f"Actual price for the sampled car: {actual_price:.2f}")
 # difference between predicted price and actual price
 difference = y_pred - actual_price
 print(f"Difference for the sampled car: {difference:.2f}")
+
+# -----------------------------------------------------------------------------
+# Final performance metrics (train / validation / test)
+# -----------------------------------------------------------------------------
+
+def mae(y, y_pred):
+    """Mean Absolute Error."""
+    return np.mean(np.abs(y_pred - y))
+
+# Train set metrics
+X_train = prepare_Xfull(df_train)
+y_pred_train = w_0 + X_train.dot(w)
+print(f"Train RMSE: {rmse(y_train, y_pred_train):.4f}")
+print(f"Train MAE:  {mae(y_train, y_pred_train):.4f}")
+
+# Validation set metrics
+X_val = prepare_Xfull(df_val)
+y_pred_val = w_0 + X_val.dot(w)
+print(f"Validation RMSE: {rmse(y_val, y_pred_val):.4f}")
+print(f"Validation MAE:  {mae(y_val, y_pred_val):.4f}")
+
+# Test set metrics
+X_test = prepare_Xfull(df_test)
+y_pred_test = w_0 + X_test.dot(w)
+print(f"Test RMSE: {rmse(y_test, y_pred_test):.4f}")
+print(f"Test MAE:  {mae(y_test, y_pred_test):.4f}")

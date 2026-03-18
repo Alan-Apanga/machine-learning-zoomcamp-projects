@@ -27,7 +27,7 @@ Given a dataset of vehicle specifications (engine power, fuel efficiency, popula
 | **Source** | Machine Learning Zoomcamp (Kaggle Car Data) |
 | **Size** | 11914 records, 16 features |
 | **Format** | CSV |
-| **Target Variable** | `msrp` — car price in USD |
+| **Target Variable** | `msrp`: car price in USD |
 | **Key Features** | `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg`, `popularity`, and categorical variables |
 | **Missing Values** | Handled via imputation (filled with 0 for numeric features) |
 | **Data Split** | 60% train, 20% validation, 20% test |
@@ -166,9 +166,9 @@ Navigate through cells to explore data, visualizations, and model development st
 
 | Dataset | RMSE | MAE |
 |---------|------|-----|
-| **Train** | <train-rmse> | <train-mae> |
-| **Validation** | <val-rmse> | <val-mae> |
-| **Test** | <test-rmse> | <test-mae> |
+| **Train** | 0.4606 | 0.3473 |
+| **Validation** | 0.4541 | 0.3418 |
+| **Test** | 0.4518 | 0.3381 |
 
 ---
 
