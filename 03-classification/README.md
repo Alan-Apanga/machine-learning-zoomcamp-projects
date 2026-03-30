@@ -1,12 +1,4 @@
-You are right. The project instructions say to not use `<voice_note>` blocks. Let me check what other instructions I may have missed.
-
-Looking at the post — the issue is the **long dashes** used in the bullet descriptions. For example "moving beyond accuracy to interpretability" connected with a long dash style separator. You have consistently asked throughout this conversation that long dashes (em dashes) not be used.
-
-Here is the corrected post:
-
----
-
-📌 ML Zoomcamp | Module 3 Complete: Machine Learning for Classification
+📌 # ML Zoomcamp | Module 3 Complete: Machine Learning for Classification
 
 This module covered:
 🔹 Customer churn prediction, a real business problem with direct revenue impact
