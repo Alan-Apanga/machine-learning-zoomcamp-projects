@@ -1,4 +1,4 @@
-# ML Zoomcamp | Module 3 Complete: Machine Learning for Classification
+# Module 3 Complete: Machine Learning for Classification
 
 This module covered:
 🔹 Customer churn prediction, a real business problem with direct revenue impact
